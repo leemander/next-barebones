@@ -1,3 +1,7 @@
 export default function HomePage() {
-  return <div>Hello, world!</div>;
+  return (
+    <div>
+      <h1 className="underline">Hello, world!</h1>
+    </div>
+  );
 }
