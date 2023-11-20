@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  align-items: start;
+  margin: 1em;
+  min-height: 100dvh;
+}
+
+a {
+  color: purple;
+  font-weight: 600;
+}
